@@ -37,6 +37,13 @@ class Tree:
         return self.__FirstNode
 
     # c.iii
+    def Insert(self, pnode):
+        if pnode < self.__FirstNode {
+            self.__LeftNode = 
+        }
+    
+    
+    
     # def Insert(self, pnode):
     #     found = False
     #     while not found:
@@ -52,22 +59,22 @@ class Tree:
     #     else:
     #         Node.setRight(pnode)
     
-    def Insert(self, NewNode):  
-        CurrentNode = self.__FirstNode  
-        Inserted = True 
-        while Inserted: 
-            if NewNode.getData() < CurrentNode.getData():  
-                if CurrentNode.getLeft() == "-1": 
-                    CurrentNode.setLeft(NewNode)  
-                    return True 
-                else: 
-                    CurrentNode = CurrentNode.getLeft() 
-            else: 
-                if CurrentNode.getRight() == "-1":  
-                    CurrentNode.setRight(NewNode)  
-                    return True 
-                else: 
-                    CurrentNode = CurrentNode.getRight() 
+    # def Insert(self, NewNode):  
+    #     CurrentNode = self.__FirstNode  
+    #     Inserted = True 
+    #     while Inserted: 
+    #         if NewNode.getData() < CurrentNode.getData():  
+    #             if CurrentNode.getLeft() == "-1": 
+    #                 CurrentNode.setLeft(NewNode)  
+    #                 return True 
+    #             else: 
+    #                 CurrentNode = CurrentNode.getLeft() 
+    #         else: 
+    #             if CurrentNode.getRight() == "-1":  
+    #                 CurrentNode.setRight(NewNode)  
+    #                 return True 
+    #             else: 
+    #                 CurrentNode = CurrentNode.getRight() 
 
 
 # d
